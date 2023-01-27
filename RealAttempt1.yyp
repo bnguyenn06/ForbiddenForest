@@ -91,6 +91,7 @@
     {"id":{"name":"s_splash","path":"sprites/s_splash/s_splash.yy",},"order":44,},
     {"id":{"name":"sPlayerElfUp","path":"sprites/sPlayerElfUp/sPlayerElfUp.yy",},"order":1,},
     {"id":{"name":"sEnemyRedSlimeLeft","path":"sprites/sEnemyRedSlimeLeft/sEnemyRedSlimeLeft.yy",},"order":0,},
+    {"id":{"name":"sBackGroundBorder","path":"sprites/sBackGroundBorder/sBackGroundBorder.yy",},"order":6,},
     {"id":{"name":"s_logo","path":"sprites/s_logo/s_logo.yy",},"order":41,},
     {"id":{"name":"sGun3","path":"sprites/sGun3/sGun3.yy",},"order":18,},
     {"id":{"name":"s_PauseMenu","path":"sprites/s_PauseMenu/s_PauseMenu.yy",},"order":45,},
