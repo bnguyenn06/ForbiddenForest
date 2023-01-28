@@ -46,7 +46,6 @@ if hp <= 0
 {
 	instance_destroy();
 	global.EnemiesKCount += 1;
-	global.enemySpawn1 += 1;
 	with(mygun) instance_destroy();
 }
 
@@ -56,6 +55,5 @@ if(instance_exists(oHero))
 	x = x + lengthdir_x(1.5, point_direction(x,y,oHero.x,oHero.y));
 	y = y + lengthdir_y(1.5, point_direction(x,y,oHero.x,oHero.y));
 }
-
 
 

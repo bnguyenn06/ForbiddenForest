@@ -17,7 +17,7 @@ if (instance_exists(oHero))
 			
 			with(instance_create_layer(x,y,"Gun",oEnemyBullet))
 			{
-				speed = 5;
+				speed = 2;
 				direction = other.image_angle + random_range(-3,3);
 				image_angle = direction;
 				

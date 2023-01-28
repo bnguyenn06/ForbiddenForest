@@ -145,6 +145,5 @@ var _playerWeapons = global.PlayerWeapons;
 	
 	//take damage from specific instance
 	hp -= 10;
-
-	
 }
+

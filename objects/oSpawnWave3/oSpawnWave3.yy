@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemyBullet",
-  "spriteId": {
-    "name": "sBullet3",
-    "path": "sprites/sBullet3/sBullet3.yy",
-  },
+  "name": "oSpawnWave3",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -26,12 +23,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oProjectile",
-    "path": "folders/Objects/oProjectile.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
 }
