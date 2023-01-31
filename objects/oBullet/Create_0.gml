@@ -9,3 +9,5 @@ yspd = 0;
 dirFix = false;
 maxDist = 2000;
 destroy = false;
+
+damage = 2;
