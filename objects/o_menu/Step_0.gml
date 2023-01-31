@@ -6,10 +6,12 @@ back	 =keyboard_check_pressed(ord("esc"))
 
 
 if up and image_index > 0 {
+	audio_play_sound(snd_click,2,false);
 	image_index--;
 }
 
 if down and image_index < image_number-1 {
+	audio_play_sound(snd_click,2,false);
 	image_index++;
 }
 if image_index = 1 and accept{
@@ -25,9 +27,15 @@ if image_index = 4 and accept{
 }
 
 if image_index = 0 and accept{
+	//stop background music
+	audio_stop_sound(snd_menu02);
+	
+	// start play room sound
+	audio_play_sound(snd_playRoom,1,true);
+	
 	room_goto(r_play);
 }
 
-if accept{
-		
+if image_index = 2 and accept{
+	room_goto(r_settings);
 }

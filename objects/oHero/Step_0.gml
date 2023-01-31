@@ -134,6 +134,13 @@ var _playerWeapons = global.PlayerWeapons;
 	}
 	//restart the game if the player dies
 	if(hp <= 0){
+		//stop play room audio
+		audio_stop_sound(snd_playRoom);
+		
+		// play wasted sound
+		audio_play_sound(snd_wasted,2,false);
+		
+		
 		global.countup=false;
 		room_goto_next(); 
 		

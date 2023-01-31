@@ -1,3 +1,4 @@
+global.countup = true;
 
 
 //load highscore
