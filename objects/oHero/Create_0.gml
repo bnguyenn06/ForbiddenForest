@@ -1,8 +1,6 @@
 //Enemies killed counter
 global.EnemiesKCount = 0;
-global.enemySpawn1 = 0;
-global.enemySpawn2 = 0;
-global.enemySpawn3 = 0;
+
 
 // Hero health bar
 	hp=1000;
@@ -15,7 +13,7 @@ global.enemySpawn3 = 0;
 
 //variables for movement
 	moveDir = 0;
-	moveSpd = 3;
+	moveSpd = 2;
 	xspd = 0;
 	yspd = 0;
 
