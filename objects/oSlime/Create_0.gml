@@ -8,6 +8,7 @@ face = 1;
 event_inherited();
 
 hp = 10;
+//test
 
 
 // Slimes health bar
