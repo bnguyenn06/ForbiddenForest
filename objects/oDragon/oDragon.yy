@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oSolidWall",
+  "name": "oDragon",
   "spriteId": {
-    "name": "sSolidWall",
-    "path": "sprites/sSolidWall/sSolidWall.yy",
+    "name": "sDragonRight",
+    "path": "sprites/sDragonRight/sDragonRight.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "oSolidObjects",
-    "path": "objects/oSolidObjects/oSolidObjects.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "oEnemy",
+    "path": "folders/Objects/oEnemy.yy",
   },
 }

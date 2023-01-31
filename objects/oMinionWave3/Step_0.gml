@@ -46,6 +46,9 @@ if hp <= 0
 {
 	instance_destroy();
 	global.EnemiesKCount += 1;
+	global.enemySpawn1 += 1;
+	global.enemySpawn2 += 1;
+	global.enemySpawn3 += 1;
 	with(mygun) instance_destroy();
 }
 
