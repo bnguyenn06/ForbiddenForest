@@ -23,3 +23,19 @@ function highscore_save(){
     ini_close();
 
 }
+
+
+function volume_load(){
+	if (file_exists("highscores.ini")){
+		
+		ini_open("highscores.ini");
+		global.musicVolme = ini_read_real("highscores","volume",1);
+		ini_close();				
+	}
+}
+
+function volume_save(){
+	ini_open("highscores.ini");
+    ini_write_real( "highscores", "volume", global.musicVolme);
+    ini_close();
+}

@@ -1,5 +1,6 @@
 // check if mouse is clicked
 if(!mouse_check_button(mb_left)){
+	
 	//slider is not clicked
 	grab= false;
 }
@@ -21,6 +22,7 @@ if(grab==false) && (clicked==false){
 // calculate percentage value
 percent = round(((x-leftLimit)/(rightLimit-leftLimit))*100);
 global.musicVolme = percent/100;
+volume_save()
 
 clicked= false;
 
