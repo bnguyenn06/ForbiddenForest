@@ -98,6 +98,7 @@
     {"id":{"name":"oSpawnWave1","path":"objects/oSpawnWave1/oSpawnWave1.yy",},"order":47,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":1,},
     {"id":{"name":"sDragonRight","path":"sprites/sDragonRight/sDragonRight.yy",},"order":50,},
+    {"id":{"name":"sBorderBackGround","path":"sprites/sBorderBackGround/sBorderBackGround.yy",},"order":6,},
     {"id":{"name":"sStaffShootDown","path":"sprites/sStaffShootDown/sStaffShootDown.yy",},"order":2,},
     {"id":{"name":"sHeroRight","path":"sprites/sHeroRight/sHeroRight.yy",},"order":4,},
     {"id":{"name":"sEnemyRedSlimeRight","path":"sprites/sEnemyRedSlimeRight/sEnemyRedSlimeRight.yy",},"order":1,},
