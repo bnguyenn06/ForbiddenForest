@@ -88,6 +88,16 @@
               {"id":"5bec5c13-b63f-4162-aaba-5b83b4603ba7","Key":31.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.7133333,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.6644737,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
             ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4282970738,"inheritsTrackColour":true,"builtinName":15,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
       ],"events":[],"isCreationTrack":false,"modifiers":[],},
+    {"resourceType":"GMAudioTrack","resourceVersion":"1.1","name":"Splash","keyframes":{"Keyframes":[
+          {"id":"832f2338-5511-4157-bb71-bc6a82d0cf49","Key":30.0,"Length":18.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Mode":0,"Id":{"name":"Splash","path":"sounds/Splash/Splash.yy",},"resourceVersion":"1.0","resourceType":"AudioKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<AudioKeyframe>",},
+        ],"resourceVersion":"1.0","resourceType":"KeyframeStore<AudioKeyframe>",},"trackColour":4294068347,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[
+        {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"position","keyframes":{"Keyframes":[
+              {"id":"2ec738a9-5ed5-47ea-9570-3d734bbf3df1","Key":30.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},"1":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
+            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068347,"inheritsTrackColour":true,"builtinName":14,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"modifiers":[],},
+        {"resourceType":"GMRealTrack","resourceVersion":"1.0","name":"rotation","keyframes":{"Keyframes":[
+              {"id":"ada04edf-baaf-452b-b789-2898448436f6","Key":30.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":true,"Channels":{"0":{"EmbeddedAnimCurve":null,"RealValue":0.0,"AnimCurveId":null,"resourceVersion":"1.0","resourceType":"RealKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<RealKeyframe>",},
+            ],"resourceVersion":"1.0","resourceType":"KeyframeStore<RealKeyframe>",},"trackColour":4294068347,"inheritsTrackColour":true,"builtinName":8,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":true,"modifiers":[],},
+      ],"events":[],"isCreationTrack":false,"modifiers":[],},
   ],
   "visibleRange": null,
   "lockOrigin": false,

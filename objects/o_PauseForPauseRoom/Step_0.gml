@@ -14,14 +14,19 @@ accept	 =keyboard_check_pressed(vk_enter)
 
 
 if up and image_index > 0 {
+	audio_play_sound(snd_click,2,false);
 	image_index--;
 }
 
 if down and image_index < image_number-1 {
+	audio_play_sound(snd_click,2,false);
 	image_index++;
 }
 if image_index = 3 and accept{
 	game_end();
+}
+if image_index = 1 and accept{
+	room_goto(r_settings);
 }
 
 if image_index = 2 and accept{
@@ -30,5 +35,7 @@ if image_index = 2 and accept{
 }
 
 if image_index = 0 and accept{
+	// start play room sound
+	audio_play_sound(snd_playRoom,1,true);
 	room_goto(global.roomfrom);
 }
