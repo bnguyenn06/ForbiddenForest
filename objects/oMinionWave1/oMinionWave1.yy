@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oMinionWave1",
   "spriteId": {
-    "name": "sSnakeRight",
-    "path": "sprites/sSnakeRight/sSnakeRight.yy",
+    "name": "sEvilMageDown",
+    "path": "sprites/sEvilMageDown/sEvilMageDown.yy",
   },
   "solid": false,
   "visible": true,

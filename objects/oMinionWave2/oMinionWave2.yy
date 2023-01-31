@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oMinionWave2",
   "spriteId": {
-    "name": "sEnemyBlueSlimeLeft",
-    "path": "sprites/sEnemyBlueSlimeLeft/sEnemyBlueSlimeLeft.yy",
+    "name": "sSnakeRight",
+    "path": "sprites/sSnakeRight/sSnakeRight.yy",
   },
   "solid": false,
   "visible": true,

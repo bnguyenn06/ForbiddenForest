@@ -1,7 +1,7 @@
 
-if(counterMinion <= 10)
+if(global.counterMinion <= 6)
 {
-	counterMinion++;
+	global.counterMinion++;
 instance_create_layer(random(1500),random(920),layer,oSlime);
 instance_create_layer(random(1500),random(920),layer,oSlime4);
 instance_create_layer(random(1500),random(920),layer,oSlime5);

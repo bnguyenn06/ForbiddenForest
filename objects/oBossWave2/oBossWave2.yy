@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oBossWave2",
   "spriteId": {
-    "name": "sEnemyBlueSlimeLeft",
-    "path": "sprites/sEnemyBlueSlimeLeft/sEnemyBlueSlimeLeft.yy",
+    "name": "sDragonRight",
+    "path": "sprites/sDragonRight/sDragonRight.yy",
   },
   "solid": false,
   "visible": true,
