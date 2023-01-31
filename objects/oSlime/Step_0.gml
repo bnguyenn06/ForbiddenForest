@@ -55,8 +55,8 @@ if hp <= 0
 //chase the hero if it exist, it not dead
 if(instance_exists(oHero))
 {
-	x = x + lengthdir_x(1.5, point_direction(x,y,oHero.x,oHero.y));
-	y = y + lengthdir_y(1.5, point_direction(x,y,oHero.x,oHero.y));
+	x = x + lengthdir_x(1.25, point_direction(x,y,oHero.x,oHero.y));
+	y = y + lengthdir_y(1.25, point_direction(x,y,oHero.x,oHero.y));
 }
 
 
