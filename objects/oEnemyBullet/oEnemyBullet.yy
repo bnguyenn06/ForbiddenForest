@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oEnemyBullet",
   "spriteId": {
-    "name": "sEvilMageProjectile",
-    "path": "sprites/sEvilMageProjectile/sEvilMageProjectile.yy",
+    "name": "sBullet3",
+    "path": "sprites/sBullet3/sBullet3.yy",
   },
   "solid": false,
   "visible": true,
