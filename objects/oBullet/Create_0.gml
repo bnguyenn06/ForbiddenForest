@@ -10,4 +10,4 @@ dirFix = false;
 maxDist = 300;
 destroy = false;
 
-damage = 2;
+damage = 3;

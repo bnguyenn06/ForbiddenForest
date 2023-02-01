@@ -1,6 +1,7 @@
 alarm[0] = time;
 if(global.counterMinion >=7 && global.counterMinion <=12)
 {
+	count = 0;
 	global.counterMinion++;
 instance_create_layer(random(1366),random(768),layer,oSlime);
 instance_create_layer(random(1366),random(768),layer,oSlime4);
