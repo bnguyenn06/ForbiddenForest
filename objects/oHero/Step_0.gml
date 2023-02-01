@@ -40,11 +40,11 @@ swapKeyPressed = keyboard_check_pressed( ord("Q"));
 	
 	
 	//collision
-	if place_meeting(x + xspd, y, oSolidWall)
+	if place_meeting(x + xspd, y, oSolidObjects)
 	{
 		xspd = 0;
 	}
-	if place_meeting(x, y+yspd, oSolidWall)
+	if place_meeting(x, y+yspd, oSolidObjects)
 	{
 		yspd = 0;
 	}

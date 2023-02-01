@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oEnemyBullet",
   "spriteId": {
-    "name": "sProjectileIceCycle",
-    "path": "sprites/sProjectileIceCycle/sProjectileIceCycle.yy",
+    "name": "sEnemyProjectile",
+    "path": "sprites/sEnemyProjectile/sEnemyProjectile.yy",
   },
   "solid": false,
   "visible": true,
