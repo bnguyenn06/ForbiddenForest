@@ -1,3 +1,7 @@
+if(hp <= 500){
+	sprite_index = 	sTHE_ANGERY_SLIME_KING;
+}
+
 // enemey movement
 if instance_exists(oHero){
 dir = point_direction(x,y,oHero.x,oHero.y);
