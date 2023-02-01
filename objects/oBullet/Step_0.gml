@@ -12,7 +12,7 @@
 					instance_destroy();	
 				}
 	
-	if place_meeting(x, y, oSolidWall)
+	if place_meeting(x, y, oSolidObjects)
 	{
 		instance_destroy();
 	}
