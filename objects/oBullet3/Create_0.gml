@@ -3,4 +3,4 @@ event_inherited();
 
 maxDist = 200;
 
-damage = 8;
+damage = 5;
