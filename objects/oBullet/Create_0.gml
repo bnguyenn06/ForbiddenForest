@@ -1,7 +1,7 @@
 event_inherited();
 
 dir = 0;
-spd = 6;
+spd = 8;
 xspd = 0;
 yspd = 0;
 
@@ -10,4 +10,4 @@ dirFix = false;
 maxDist = 500;
 destroy = false;
 
-damage = 3;
+damage = 5;
