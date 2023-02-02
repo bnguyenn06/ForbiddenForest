@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oDragonFireball",
+  "name": "oDragonGun",
   "spriteId": {
-    "name": "sDragonFireball",
-    "path": "sprites/sDragonFireball/sDragonFireball.yy",
+    "name": "sGun2",
+    "path": "sprites/sGun2/sGun2.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -26,12 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "oProjectile",
-    "path": "folders/Objects/oProjectile.yy",
+    "name": "oWeapon",
+    "path": "folders/Objects/oWeapon.yy",
   },
 }

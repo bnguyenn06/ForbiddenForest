@@ -1,5 +1,5 @@
 alarm[0] = time;
-if(global.counterMinion >=12 && global.counterMinion <=18)
+if(global.counterMinion >=14 && global.counterMinion < 19)
 {
 	global.counterMinion++;
 instance_create_layer(random(1366),random(768),layer,oSlime);

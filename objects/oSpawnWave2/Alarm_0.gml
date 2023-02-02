@@ -1,5 +1,5 @@
 alarm[0] = time;
-if(global.counterMinion >=7 && global.counterMinion <=12)
+if(global.counterMinion >=7 && global.counterMinion < 12)
 {
 	count = 0;
 	global.counterMinion++;
