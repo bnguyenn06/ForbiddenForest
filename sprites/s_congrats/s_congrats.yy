@@ -12,7 +12,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 48,
   "bbox_right": 699,
-  "bbox_top": 56,
+  "bbox_top": 17,
   "bbox_bottom": 172,
   "HTile": false,
   "VTile": false,
@@ -64,6 +64,7 @@
     "eventStubScript": null,
   },
   "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dd5008df-410c-4dae-8e4c-ede84ff5519d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f684bc24-fc6f-4744-90d0-c1900f7d6937","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
