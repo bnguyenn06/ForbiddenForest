@@ -24,8 +24,6 @@ draw_text_transformed(x,y+40,"Shoot: Left Click",scale,scale,0);
 draw_text_transformed(x,y+80,"Q: Weapon swap",scale,scale,0);
 draw_text_transformed(x,y+120,"ESC: Pause",scale,scale,0);
 
-draw_text_transformed(960,802,"Press Enter to Select",scale,scale,0);
-
 draw_set_alpha(1);
 
 

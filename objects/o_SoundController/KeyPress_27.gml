@@ -1,8 +1,4 @@
-if(started){
-	audio_stop_sound(snd_menu02);
-	started=false;
-}	
-
+audio_stop_sound(snd_menu02);
 
 room_goto(r_menu);
 
