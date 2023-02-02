@@ -55,9 +55,7 @@ swapKeyPressed = keyboard_check_pressed( ord("Q"));
 	x += xspd;
 	y += yspd;
 	
-	//depth
-	depth = -bbox_bottom;
-	#endregion
+
 
 // player aiming
 	centerY = y + centerYOffset;
