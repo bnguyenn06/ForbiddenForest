@@ -1,13 +1,13 @@
 event_inherited();
 
 dir = 0;
-spd = 10;
+spd = 8;
 xspd = 0;
 yspd = 0;
 
 //cleanup
 dirFix = false;
-maxDist = 300;
+maxDist = 500;
 destroy = false;
 
-damage = 3;
+damage = 5;
