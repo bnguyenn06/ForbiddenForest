@@ -10,7 +10,7 @@ draw_self();
 //draw the damage
 draw_text(hHealthBar_x+17, hHealthBar_y + 50, "Enemies Killed")
 draw_text(hHealthBar_x-5, hHealthBar_y + 50, string(global.EnemiesKCount));
-depth = -4;
+
 
 //draw the weapon
 	if aimDir >= 180 && aimDir < 360
