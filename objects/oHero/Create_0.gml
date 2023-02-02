@@ -4,6 +4,13 @@ global.enemySpawn1 = 0;
 global.enemySpawn2 = 0;
 global.enemySpawn3 = 0;
 
+// Screenshaking
+    shake = false;
+    view_x = camera_get_view_x(view_camera[0]);
+    view_y = camera_get_view_y(view_camera[0]);
+    range = 4; 
+
+
 // Hero health bar
 	hp=1000;
 	h_hp_max = hp;

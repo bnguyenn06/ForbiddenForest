@@ -5,13 +5,20 @@
 	
 		//take damage from specific instance
 		hp -= _inst.damage;
-	
+		 shake = true;
+        alarm[0]=30;
 		//tell the damage instance to destroy itself
 		//_inst.destroy = true;
 	}
 
 	if hp <= 0 {instance_destroy()};
-
+//screenshaking code
+if(shake)
+{
+    camera_set_view_pos(view_camera[0],view_x+random_range(-range, range),view_y+random_range(-range, range));
+}else{
+    camera_set_view_pos(view_camera[0],view_x,view_y);
+}
 
 // get inputs
 rightKey = keyboard_check( ord("D"));
@@ -22,8 +29,7 @@ shootKey = mouse_check_button(mb_left);
 swapKeyPressed = keyboard_check_pressed( ord("Q"));
 
 
-// player movement
-#region
+
 	//get the direction
 	var _horizKey = rightKey - leftKey;
 	var _vertKey = downKey - upKey;
