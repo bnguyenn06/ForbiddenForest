@@ -1,4 +1,4 @@
-// goto pause screen
+ // goto pause screen
 if keyboard_check_pressed(vk_escape){
 	//stop play room audio
 	audio_stop_sound(snd_playRoom);
