@@ -1,4 +1,4 @@
-spd = 1.8
+spd = 1.5
 dir = 0;
 xspd = 0;
 yspd = 0;

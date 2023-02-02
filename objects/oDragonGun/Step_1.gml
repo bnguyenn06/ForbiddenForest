@@ -7,7 +7,7 @@ image_yscale = abs(owner.image_yscale);
 if (instance_exists(oHero))
 {
 	if(oHero.x < x) image_yscale = -image_yscale;
-	if(point_distance(oHero.x,oHero.y,x,y) < 800)
+	if(point_distance(oHero.x,oHero.y,x,y) < 8000)
 	{
 		image_angle = point_direction(x,y,oHero.x,oHero.y);
 		countdown--;
