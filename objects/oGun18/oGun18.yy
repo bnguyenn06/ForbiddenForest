@@ -7,7 +7,7 @@
     "path": "sprites/sGun2/sGun2.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,

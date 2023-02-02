@@ -1,3 +1,7 @@
+if(hp <= 500){
+	sprite_index = 	sTHE_ANGERY_SLIME_KING;
+}
+
 // enemey movement
 if instance_exists(oHero){
 dir = point_direction(x,y,oHero.x,oHero.y);
@@ -18,14 +22,14 @@ if xspd < 0
 image_xscale = face;
 
 //collision to solid objects
-if place_meeting(x + xspd,y,oSolidObjects){
-	xspd = 0;
-
-}
-if place_meeting(y + yspd,y,oSolidObjects){
-	yspd = 0;
-
-}
+	if place_meeting(x + xspd, y, oSolidObjects)
+	{
+		xspd = 0;
+	}
+	if place_meeting(x, y+yspd, oSolidObjects)
+	{
+		yspd = 0;
+	}
 
 x += xspd;
 y += yspd;
@@ -52,12 +56,7 @@ if hp <= 0
 	with(mygun) instance_destroy();
 }
 
-//chase the hero if it exist, it not dead
-if(instance_exists(oHero))
-{
-	x = x + lengthdir_x(1.5, point_direction(x,y,oHero.x,oHero.y));
-	y = y + lengthdir_y(1.5, point_direction(x,y,oHero.x,oHero.y));
-}
+
 
 
 

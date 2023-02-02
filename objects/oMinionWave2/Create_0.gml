@@ -1,4 +1,4 @@
-spd = .5
+spd = 1.5
 dir = 0;
 xspd = 0;
 yspd = 0;
@@ -7,7 +7,7 @@ face = 1;
 
 event_inherited();
 
-hp = 10;
+hp = 50;
 
 
 // Slimes health bar

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "oEnemyBullet",
   "spriteId": {
-    "name": "sBullet3",
-    "path": "sprites/sBullet3/sBullet3.yy",
+    "name": "sEnemyProjectile",
+    "path": "sprites/sEnemyProjectile/sEnemyProjectile.yy",
   },
   "solid": false,
   "visible": true,

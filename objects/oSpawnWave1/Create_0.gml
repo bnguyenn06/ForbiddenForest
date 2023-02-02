@@ -1,4 +1,5 @@
 time = 300;
 alarm[0] = time;
-counterMinion = 1;
-
+global.counterMinion = 1;
+global.count = 0;
+count = 0;
