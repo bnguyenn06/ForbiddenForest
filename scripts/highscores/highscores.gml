@@ -29,7 +29,8 @@ function volume_load(){
 	if (file_exists("highscores.ini")){
 		
 		ini_open("highscores.ini");
-		global.musicVolme = ini_read_real("highscores","volume",1);
+		global.musicVolme = ini_read_real("highscores","volume",0.5);
+		audio_sound_gain(snd_menu02,global.musicVolme,0);
 		ini_close();				
 	}
 }

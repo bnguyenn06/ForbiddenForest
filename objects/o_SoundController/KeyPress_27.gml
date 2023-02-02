@@ -3,7 +3,7 @@ if(started){
 }
 
 started=false;
-room_goto(r_menu);
+room_goto(global.lastRoom);
 
 
 
