@@ -50,7 +50,7 @@ if hp <= 0
 	global.enemySpawn2 += 1;
 	global.enemySpawn3 += 1;
 	global.counterMinion+= 2;
-	with(mygun) instance_destroy();
+
 }
 
 
