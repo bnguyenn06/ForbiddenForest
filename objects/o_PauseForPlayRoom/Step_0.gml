@@ -5,6 +5,7 @@ if keyboard_check_pressed(vk_escape){
     audio_play_sound(snd_click,2,false);
 	global.roomfrom = room;	
 	room_persistent=true;
+	
 	room_goto(r_pause);
 }
 

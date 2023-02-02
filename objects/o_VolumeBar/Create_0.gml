@@ -4,7 +4,7 @@ rightLimit= 1108;
 leftLimit = 412;
 
 //create the slider for this bar and assign it tosome values
-a = instance_create_layer(x,y-28,"Instances_1",o_VolumeSlider);
+a = instance_create_layer(x,y-28,"Instances",o_VolumeSlider);
 a.image_xscale = 1;
 a.image_yscale = 1;
 a.barLength = sprite_get_width(s_VolumeSlider);

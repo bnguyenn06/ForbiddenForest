@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oBush",
+  "name": "o_congrats",
   "spriteId": {
-    "name": "sBush",
-    "path": "sprites/sBush/sBush.yy",
+    "name": "s_congrats",
+    "path": "sprites/s_congrats/s_congrats.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,9 +24,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
