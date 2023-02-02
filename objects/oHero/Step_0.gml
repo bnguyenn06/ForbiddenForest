@@ -55,9 +55,7 @@ swapKeyPressed = keyboard_check_pressed( ord("Q"));
 	x += xspd;
 	y += yspd;
 	
-	//depth
-	depth = -bbox_bottom;
-	#endregion
+
 
 // player aiming
 	centerY = y + centerYOffset;
@@ -153,5 +151,12 @@ var _playerWeapons = global.PlayerWeapons;
 	
 	//take damage from specific instance
 	hp -= 10;
+}
+	if place_meeting(x, y, oDragonFireball)
+{
+	var _inst = instance_place(x, y, oDragonFireball);		
+	
+	//take damage from specific instance
+	hp -= 15;
 }
 
