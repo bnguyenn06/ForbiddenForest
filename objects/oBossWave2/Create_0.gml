@@ -1,4 +1,4 @@
-spd = 1.5
+spd = 1.8
 dir = 0;
 xspd = 0;
 yspd = 0;
@@ -7,7 +7,7 @@ face = 1;
 
 event_inherited();
 
-hp = 200;
+hp = 400;
 
 
 // Slimes health bar
@@ -21,7 +21,7 @@ hp = 200;
 
 if (hasweapon)
 {
-	mygun = instance_create_layer(x,y,"Gun",oGun18)
+	mygun = instance_create_layer(x,y,"Gun",oDragonGun)
 	with(mygun)
 	{
 		owner = other.id	
