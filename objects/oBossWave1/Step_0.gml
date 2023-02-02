@@ -17,18 +17,6 @@ if xspd < 0
 }
 image_xscale = face;
 
-//collision to solid objects
-	if place_meeting(x + xspd, y, oSolidObjects)
-	{
-		xspd = 0;
-	}
-	if place_meeting(x, y+yspd, oSolidObjects)
-	{
-		yspd = 0;
-	}
-
-x += xspd;
-y += yspd;
 
 //receive damage
 if place_meeting(x, y, oDamageEnemy)
