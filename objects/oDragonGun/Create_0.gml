@@ -1,2 +1,2 @@
-countdownrate = 90;
+countdownrate = 1;
 countdown = countdownrate;

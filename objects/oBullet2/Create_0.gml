@@ -3,5 +3,5 @@ event_inherited();
 
 //change properties
 spd = 15;
-maxDist = 500;
+maxDist = 300;
 damage = 1;
