@@ -4,6 +4,7 @@ global.enemySpawn1 = 0;
 global.enemySpawn2 = 0;
 global.enemySpawn3 = 0;
 
+
 // Screenshaking
     shake = false;
     view_x = camera_get_view_x(view_camera[0]);
