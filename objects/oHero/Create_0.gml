@@ -18,7 +18,7 @@ global.enemySpawn3 = 0;
 	hHealthBar_width = 125;
 	hHealthBar_height = 25;
 	hHealthBar_x = (2300/2) - (hHealthBar_width/2)
-	hHealthBar_y = ystart - 490;
+	hHealthBar_y = ystart - 400;
 	// End of Health Bar variables declaration
 
 //variables for movement
