@@ -100,6 +100,7 @@
     {"name":"inst_3CC647D9","path":"rooms/r_play/r_play.yy",},
     {"name":"inst_6E31A208","path":"rooms/r_play/r_play.yy",},
     {"name":"inst_2B9556A3","path":"rooms/r_play/r_play.yy",},
+    {"name":"inst_5A54070E","path":"rooms/r_play/r_play.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

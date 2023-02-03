@@ -38,6 +38,21 @@ if place_meeting(x, y, oDamageEnemy)
 
 if hp <= 0 
 {
+	//save new highscore if highest
+	if(global.mins*60 + global.seconds) > (global.high_mins*60+global.high_seconds){
+	
+	
+	//set new highscore
+	global.high_mins=global.mins;
+	global.high_seconds=global.seconds;
+	
+	newWinner=1;
+	  
+	
+	highscore_save();
+	
+	}
+	
 	instance_destroy();
 	global.EnemiesKCount += 1;
 	global.enemySpawn1 += 1;

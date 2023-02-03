@@ -6,7 +6,7 @@ draw_text(457,y+30,"You beat the game in "+string(global.mins)+" mins "+string(g
 
 
 
-draw_text(457,y+400,"Press Enter to Return to Main Menu");
+draw_text(457,y+300,"Press Enter to Return to Main Menu");
 
 
 
