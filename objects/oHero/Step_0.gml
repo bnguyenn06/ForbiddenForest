@@ -10,6 +10,7 @@
 		//tell the damage instance to destroy itself
 		//_inst.destroy = true;
 	}
+	
 
 	if hp <= 0 {instance_destroy()};
 //screenshaking code

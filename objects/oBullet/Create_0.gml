@@ -7,7 +7,7 @@ yspd = 0;
 
 //cleanup
 dirFix = false;
-maxDist = 500;
+maxDist = 600;
 destroy = false;
 
 damage = 5;
