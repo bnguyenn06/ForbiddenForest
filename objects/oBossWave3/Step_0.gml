@@ -21,7 +21,8 @@ if xspd < 0
 }
 image_xscale = face;
 
-
+x += xspd;
+y += yspd;
 
 //receive damage
 if place_meeting(x, y, oDamageEnemy)

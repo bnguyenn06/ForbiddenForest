@@ -5,11 +5,12 @@
 	
 		//take damage from specific instance
 		hp -= _inst.damage;
-		 shake = true;
+		shake = true;
         alarm[0]=30;
 		//tell the damage instance to destroy itself
 		//_inst.destroy = true;
 	}
+	
 
 	if hp <= 0 {instance_destroy()};
 //screenshaking code
@@ -151,19 +152,27 @@ var _playerWeapons = global.PlayerWeapons;
 		room_goto_next(); 
 		
 		}
-	
+	// Receive Damage from EnemyBullet and DragonFireball instances
 	if place_meeting(x, y, oEnemyBullet)
-{
-	var _inst = instance_place(x, y, oEnemyBullet);		
+	{
+		var _inst = instance_place(x, y, oEnemyBullet);		
 	
-	//take damage from specific instance
-	hp -= 10;
-}
-	if place_meeting(x, y, oDragonFireball)
-{
-	var _inst = instance_place(x, y, oDragonFireball);		
+		//take damage from specific instance
+		hp -= 10;
+		
+		// ScreenShake
+		shake = true;
+        alarm[0]=30;
+	}
+		if place_meeting(x, y, oDragonFireball)
+	{
+		var _inst = instance_place(x, y, oDragonFireball);		
 	
-	//take damage from specific instance
-	hp -= 15;
-}
+		//take damage from specific instance
+		hp -= 15;
+		
+		// ScreenShake
+		shake = true;
+        alarm[0]=30;
+	}
 
