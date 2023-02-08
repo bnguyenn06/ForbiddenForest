@@ -35,9 +35,9 @@ global.enemySpawn3 = 0;
 	aimDir = 0;
 
 	face = 3;
-	sprite[0] = sPlayerRightT;
+	sprite[0] = sPlayerElfRigthT;
 	sprite[1] = sPlayerElfUpT;
-	sprite[2] = sPlayerLeftT;
+	sprite[2] = sPlayerElfLeftT;
 	sprite[3] = sPlayerElfDownT;
 
 //weapon info
